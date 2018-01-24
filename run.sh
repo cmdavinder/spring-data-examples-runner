@@ -22,4 +22,4 @@ fi
 
 echo "Running: mvn clean dependency:list test -Dsort -Dmaven.test.redirectTestOutputToFile=true -B ${MVN_ARGS}"
 echo
-mvn clean test -Dsort -Dmaven.test.redirectTestOutputToFile=true -B ${MVN_ARGS}
+mvn clean test -Dsort -Dmaven.test.redirectTestOutputToFile=true -U -B ${MVN_ARGS}
